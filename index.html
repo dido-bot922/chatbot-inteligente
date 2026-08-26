@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chatbot-wrapper">
+            <!-- Header -->
+            <div class="header">
+                <h1>🤖 ChatBot Inteligente</h1>
+                <p>Seu assistente que sabe de tudo</p>
+            </div>
+
+            <!-- Chat Messages Area -->
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        👋 Olá! Sou seu assistente inteligente. Pode me perguntar sobre qualquer coisa - tecnologia, história, ciência, dicas úteis... Estou aqui para ajudar!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    class="input-field" 
+                    placeholder="Digite sua pergunta ou mensagem..."
+                    autocomplete="off"
+                >
+                <button id="sendBtn" class="send-btn">
+                    ➤ Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
